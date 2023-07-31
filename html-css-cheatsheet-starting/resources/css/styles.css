@@ -1,0 +1,76 @@
+/* 
+   Alexander Dickopf
+   Codacademy Project: html-css-cheatsheet-starting
+   Created: 7/24/23
+*/
+
+/* Typeface for banner */
+@font-face {
+   font-family: 'Nunito';
+   src: url('../fonts/Nunito-VariableFont_wght.ttf') format('truetype'),
+        url('../fonts/Nunito-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+/* Typeface for code snippets */
+@font-face {
+   font-family: 'PT Mono';
+   src: url('../fonts/PTMono-Regular.ttf'), format('truetype');
+}
+
+/* Typeface for language sections */
+@font-face {
+   font-family: 'Oswald';
+   src: url('../fonts/Oswald-VariableFont_wght.ttf'), format('truetype');
+}
+
+body {
+   background-color: rgba(35, 35, 136, 0.877);
+   color: cornsilk;
+}
+
+div h2 {
+   font-family: 'Oswald', sans-serif;
+   text-align: center;
+}
+
+table {
+   border: 2px solid black;
+   margin: 10px auto;
+}
+
+thead {
+   background-color: royalblue;
+}
+
+th {
+   border: 1px solid mintcream;
+}
+
+code {
+   font-family: 'PT Mono', monospace;
+}
+
+.info-table td {
+   border: 1px solid mintcream;
+   margin: 2px;
+   height: 40px;
+   text-align: center;
+   vertical-align: middle;
+}
+
+#banner {
+   font-family: 'Nunito', sans-serif;
+   text-align: center;
+}
+
+#css-section .info-table td {
+   width: 269px;
+}
+
+#html-section .info-table td {
+   width: 200px;
+}
+
+#html-section h2 {
+   margin-top: 3%;
+}
